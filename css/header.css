@@ -1,0 +1,50 @@
+.header {
+}
+.container {
+}
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 20px 35px 32px;
+  max-height: 90px;
+}
+.header__logo a {
+  cursor: pointer;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.header__nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__nav ul li a {
+  transition: color 0.3s ease;
+}
+.header__nav ul li a:hover {
+  color: grey;
+}
+.header__nav ul li + li {
+  margin-left: 22px;
+}
+.header__link {
+}
+.header__button {
+  margin-left: 22px;
+}
+@media (max-width: 800px) {
+  .header__nav ul {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .header__body {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: unset;
+  }
+}
