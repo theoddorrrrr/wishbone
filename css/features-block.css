@@ -1,0 +1,114 @@
+.features-block {
+  background-color: #f7f7f7;
+}
+.features-block__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.features-block__body {
+  padding: 120px 16px 100px 16px;
+}
+.features-block__title {
+  font-size: 39px;
+  line-height: 42px;
+}
+.features-block__text {
+  font-size: 24px;
+  line-height: 30px;
+
+  margin-top: 15px;
+}
+.features-block__items {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+}
+.features-block__item {
+  flex: 0 1 379px;
+  height: 460px;
+
+  position: relative;
+  background-size: cover;
+}
+.features-block__item + .features-block__item {
+  margin-left: 16px;
+}
+.features-block__item:nth-child(1) {
+  background-image: url("../assets/projects/IMAGE.png");
+}
+.features-block__item:nth-child(2) {
+  background-image: url("../assets/projects/IMAGE-1.png");
+}
+.features-block__item:nth-child(3) {
+  background-image: url("../assets/projects/IMAGE-2.png");
+}
+.features-block__item div,
+.features-block__item button {
+  opacity: 0;
+}
+.features-block__item__title {
+  margin: 40px 0 0 40px;
+  transition: opacity 0.5s ease-in-out;
+}
+.features-block__item__subtitle {
+  margin-left: 40px;
+  transition: opacity 0.5s ease-in-out;
+}
+.features-block__item__button {
+  position: absolute;
+  bottom: 40px;
+  left: 45px;
+}
+.features-block__item:hover .features-block__item__title,
+.features-block__item:hover .features-block__item__subtitle,
+.features-block__item:hover .features-block__item__button {
+  opacity: 1;
+}
+.features-block__button {
+  margin: 40px auto 0 auto;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .features-block__items {
+    display: flex;
+    align-items: center;
+
+    margin: 40px auto 0 auto;
+    max-width: 420px;
+    overflow-y: auto;
+  }
+
+  .features-block__item {
+    flex: 0 0 auto;
+    width: 379px;
+    height: 460px;
+  }
+}
+
+@media (max-width:450px) {
+    .features-block__items {
+        display: flex;
+        align-items: center;
+    
+        margin: 40px auto 0 auto;
+        max-width: 300px;
+        overflow-y: auto;
+      }
+
+      .features-block__item {
+        flex: 0 0 auto;
+        width: 280px;
+        height: 350px;
+        
+      }
+}
+
+@media (hover: none) {
+  .features-block__item .features-block__item__title,
+  .features-block__item .features-block__item__subtitle,
+  .features-block__item .features-block__item__button {
+    opacity: 1;
+  }
+}

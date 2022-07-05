@@ -1,0 +1,38 @@
+.get-in-touch {
+    background-color: #CEC4BC;
+}
+.get-in-touch__container {
+  max-width: 1168px;
+  margin: 0 auto;
+}
+.get-in-touch__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 100px 10px;
+}
+.get-in-touch__content {
+  max-width: 576px;
+}
+.get-in-touch__subtitle {
+  font-size: 14px;
+  line-height: 20px;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.get-in-touch__title {
+  font-size: 40px;
+  line-height: 42px;
+}
+
+
+@media (max-width: 800px) {
+    .get-in-touch__body {
+        flex-direction: column;
+    }
+    .get-in-touch__button {
+        margin-top: 20px;
+    }
+}

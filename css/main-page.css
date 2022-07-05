@@ -16,9 +16,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 60px 40px 40px;
+  padding: 60px 40px 40px 65px;
+  margin: 77px 0;
 
-  max-width: 600px;
+  max-width: 612px;
   max-height: 568px;
 }
 .main-page__subtitle {
@@ -47,6 +48,7 @@
 .main-page__img {
   font-size: 0;
   flex: 1 1 50%;
+  max-height: 720px;
 }
 .main-page__img img {
   width: 100%;
