@@ -7,11 +7,8 @@
 .team__body {
   display: flex;
   justify-content: space-between;
-  /* flex-direction: column; */
 
-  padding: 0 10px;
-
-  margin: 100px 0;
+  margin: 95px 0 126px 0;
 }
 .team__info {
   max-width: 378px;
@@ -36,7 +33,7 @@
 }
 .team__client:nth-child(2),
 .team__client:nth-child(4) {
-  margin-left: 144px;
+  margin-left: 113px;
 }
 .team__client:nth-child(3),
 .team__client:nth-child(4),
@@ -46,12 +43,15 @@
 .team__client {
   width: 280px;
   height: 100px;
+
+  padding-top: 8px;
 }
 .client-item {
 }
 .client-item__info {
 }
 .client-item__name {
+  line-height: 24px;
 }
 .client-item__job {
 }
@@ -63,23 +63,24 @@
 }
 
 @media (max-width: 998px) {
-    .team__body {
-        justify-content: center;
-        align-items: center;
-    }
-    .team__clients {
-        flex: 0 0 auto;
-        /* justify-content: center; */
-        margin-top: 20px;
-        justify-content: center;
-    }
-    .team__clients .team__client {
-        width: 250px;
-    }
-    .team__client:last-child {
-        justify-self: start;
-    }
-    .team__body {
-        flex-direction: column;
-    }
+  .team__body {
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 10px;
+  }
+  .team__clients {
+    flex: 0 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .team__clients .team__client {
+    width: 250px;
+  }
+  .team__client:last-child {
+    justify-self: start;
+  }
+  .team__body {
+    flex-direction: column;
+  }
 }

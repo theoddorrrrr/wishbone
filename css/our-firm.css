@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
 
-  margin: 100px 0;
+  margin: 100px 0 128px 0;
 }
 .our-firm__title {
   font-size: 32px;
@@ -16,8 +16,11 @@
 }
 .our-firm__content {
   max-width: 493px;
+  margin-right: 7px;
 }
 .our-firm__text {
+  font-size: 16px;
+  line-height: 24px;
 }
 .our-firm__text + .our-firm__text {
   margin-top: 10px;
@@ -25,6 +28,7 @@
 .our-firm__client {
   margin-top: 18px;
 }
+
 .client-item {
   display: flex;
   align-items: center;
@@ -36,7 +40,7 @@
 }
 .client-item__name {
   font-size: 17px;
-  line-height: 26px;
+  line-height: 20px;
 }
 .client-item__job {
   font-size: 14px;

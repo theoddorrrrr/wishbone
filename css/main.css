@@ -36,6 +36,11 @@ button {
   cursor: pointer;
 }
 
+/* main {
+  max-width: 1400px;
+  margin: 0 auto;
+} */
+
 .btn {
   font-family: "Poppins", sans-serif;
   font-style: normal;

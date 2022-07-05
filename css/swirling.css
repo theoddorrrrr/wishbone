@@ -6,14 +6,14 @@
   
   .swirling-block__content {
     padding-left: 181px;
-    width: 481px;
+    width: 460px;
   }
 
   @media (max-width: 800px) {
     .swirling-block__content {
         padding-left: 0;
 
-        width: 300px;
+        width: 349px;
         margin-left: 30px;
       }
   }

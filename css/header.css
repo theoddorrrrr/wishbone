@@ -9,8 +9,9 @@
   padding: 35px 20px 35px 32px;
   max-height: 90px;
 }
-.header__logo a {
+.header__logo {
   cursor: pointer;
+  height: 19px;
 }
 .header__nav {
   display: flex;
@@ -22,18 +23,20 @@
   flex-wrap: wrap;
 }
 .header__nav ul li a {
+  font-size: 15px;
+  line-height: 24px;
+  
   transition: color 0.3s ease;
 }
 .header__nav ul li a:hover {
   color: grey;
 }
 .header__nav ul li + li {
-  margin-left: 22px;
+  margin-left: 32px;
 }
-.header__link {
-}
+
 .header__button {
-  margin-left: 22px;
+  margin-left: 31px;
 }
 
 .icon-menu {
