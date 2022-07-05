@@ -1,0 +1,13 @@
+.staircase-block {
+  background-color: #eee;
+  background-image: url("../assets/container-images/container02.png");
+  background-size: cover;
+}
+
+section .staircase-block__content {
+    margin-left: auto;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 60px;
+}
+

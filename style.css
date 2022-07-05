@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');   
 
 @import "./css/main.css";
 @import "./css/header.css";
 @import './css/main-page.css';
+@import "./css/our-firm.css";
+@import "./css/reeding-block.css";
+@import "./css/our-process.css";
+@import "./css/staircase.css";
+@import "./css/customers.css";
+@import "./css/swirling.css";
 
 @import "./css/footer.css";

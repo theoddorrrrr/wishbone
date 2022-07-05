@@ -1,0 +1,63 @@
+.our-firm {
+}
+.our-firm__container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+.our-firm__body {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 100px 0;
+}
+.our-firm__title {
+  font-size: 32px;
+  line-height: 38px;
+}
+.our-firm__content {
+  max-width: 493px;
+}
+.our-firm__text {
+}
+.our-firm__text + .our-firm__text {
+  margin-top: 10px;
+}
+.our-firm__client {
+  margin-top: 18px;
+}
+.client-item {
+  display: flex;
+  align-items: center;
+}
+.client-item__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.client-item__name {
+  font-size: 17px;
+  line-height: 26px;
+}
+.client-item__job {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@media (max-width: 800px) {
+  .our-firm__body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-firm__title {
+    margin-bottom: 20px;
+  }
+
+  .our-firm__client {
+    justify-content: center;
+  }
+
+  .our-firm__content {
+    padding: 0 10px;
+  }
+}
