@@ -71,7 +71,7 @@
     margin: 50px 0;
   }
   .team__info {
-    text-align: center;
+    text-align: center; 
   }
   .team__clients {
     flex: 0 0 auto;

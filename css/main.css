@@ -58,8 +58,12 @@ button {
 
   border-radius: 14px;
   padding: 11px 20px;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   border: 1px solid black;
+}
+
+.btn:active {
+  transform: scale(1.05);
 }
 
 .btn_inherit {
