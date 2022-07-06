@@ -17,13 +17,13 @@
 .footer__content span:nth-child(1) {
   display: block;
 }
-.header__logo {
+.footer .header__logo {
   width: 256px;
   height: 22px;
 }
 .footer__subtitle {
   margin-top: 20px;
-  line-height: 18px;
+  line-height: 19px;
 }
 .footer_social-media {
   display: flex;
@@ -41,10 +41,20 @@ address + address {
   margin-left: 20px;
 }
 
+@media (max-width: 998px) {
+  .footer__body {
+    padding: 30px 20px;
+  }
+  .footer__subtitle {
+    max-width: 270px;
+  }
+}
+
 @media (max-width: 450px) {
   .footer__body {
     flex-direction: column;
-    padding: 30px 10px;
+    padding: 30px 20px;
+    text-align: center;
   }
   .footer_social-media {
     display: flex;
@@ -52,5 +62,8 @@ address + address {
     align-items: center;
 
     margin-top: 20px;
+  }
+  .footer__subtitle {
+    margin: 20px auto 10px auto;
   }
 }

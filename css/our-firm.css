@@ -52,6 +52,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin: 60px 10px;
   }
   .our-firm__title {
     margin-bottom: 20px;
@@ -63,5 +65,11 @@
 
   .our-firm__content {
     padding: 0 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .our-firm__body {
+    margin: 50px 10px;
   }
 }

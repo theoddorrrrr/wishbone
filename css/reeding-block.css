@@ -32,10 +32,29 @@
   line-height: 24px;
 }
 
-@media (max-width: 450px) {
-    .img-block .img-block__content {
-      margin: 0;
-      padding: 0 10px;
-    }
+@media (max-width: 998px) {
+  .img-block__content {
+    width: 290px;
+    margin-right: 20px;
+    padding-right: 0;
+  }
+}
 
+@media (max-width: 800px) {
+  .img-block {
+    height: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .img-block .img-block__content {
+    text-align: center;
+    padding: 0;
+    margin: 0 20px;
+  }
+
+  .img-block {
+    height: 350px;
+    justify-content: center;
+  }
 }

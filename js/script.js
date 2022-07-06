@@ -8,8 +8,6 @@ window.onload = function () {
   function documentActions(e) {
     const targetElement = e.target;
 
-    console.log(targetElement);
-
     if (
       targetElement.classList.contains("icon-menu") || targetElement.closest(".icon-menu") ||
       targetElement.classList.contains("header__button") ||
@@ -20,7 +18,6 @@ window.onload = function () {
   }
 
   function toggleFunction() {
-    console.log(456);
     burger.classList.toggle("_active");
     nav.classList.toggle("_active");
     body.classList.toggle("lock");
