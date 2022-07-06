@@ -32,7 +32,7 @@
   color: grey;
 }
 .header__nav ul li + li {
-  margin-left: 32px;
+  margin-left: 33px;
 }
 
 .header__button {

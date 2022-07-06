@@ -46,14 +46,8 @@
 
   padding-top: 8px;
 }
-.client-item {
-}
-.client-item__info {
-}
-.client-item__name {
+.team__clients .client-item__name {
   line-height: 24px;
-}
-.client-item__job {
 }
 
 @media (max-width: 1200px) {
