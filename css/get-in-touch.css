@@ -2,7 +2,7 @@
   background-color: #cec4bc;
 }
 .get-in-touch__container {
-  max-width: 1168px;
+  max-width: 1208px;
   margin: 0 auto;
 }
 .get-in-touch__body {
@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 100px 0 115px 0;
+  padding: 100px 20px 115px 20px;
 }
 .get-in-touch__content {
   max-width: 576px;
@@ -34,7 +34,7 @@
 @media (max-width: 998px) {
   .get-in-touch__body {
     flex-direction: column;
-    padding: 50px 10px;
+    padding: 50px 20px;
   }
   .get-in-touch__button {
     margin-top: 20px;

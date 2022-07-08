@@ -1,14 +1,14 @@
 .team {
 }
 .team__container {
-  max-width: 1168px;
+  max-width: 1208px;
   margin: 0 auto;
 }
 .team__body {
   display: flex;
   justify-content: space-between;
 
-  margin: 95px 0 126px 0;
+  margin: 95px 20px 126px 20px;
 }
 .team__info {
   max-width: 378px;
@@ -61,7 +61,7 @@
     justify-content: center;
     align-items: center;
 
-    padding: 0 10px;
+    /* padding: 0 10px; */
     margin: 50px 0;
   }
   .team__info {
